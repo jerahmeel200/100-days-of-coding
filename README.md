@@ -31,7 +31,7 @@ Keep a daily log of your progress. Share your achievements, no matter how small,
 
 Are you ready to embark on this 100-day journey? Remember, the path to becoming a developer is not just about reading and watching but about doing. Let's code, learn, and grow together! 🚀
 
-### 📅 Start Date: [02/03/2024]
+### 📅 Start Date: [16/12/2024]
 
 *Happy Coding, and see you at the finish line!* 🏁
 *Please Star the Repositry🌟*
