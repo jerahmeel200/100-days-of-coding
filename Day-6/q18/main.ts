@@ -1,33 +1,40 @@
  (()=>{
     
-  var guests : string[] = ["jerahmeel", "james", "kelly"];
+  var places : string[] = ["paris", "cuba", "lagos", "abuja", "spain"]
 
-
-   // the  push method adds larry to the end of the  array list
-   guests.push("larry")
-   // the unShift() method adds charlse to the start of the  array 
+  console.log("original",places) 
+ 
+ //  sort place alphabetically using the sort method
+ const sorted = [...places].sort()
+ console.log("sorted", sorted)
   
-   // the splice method add joshua to the middle of the array 
-   guests.splice(guests.length / 2, 0, "joshua")
-
- // this prints out the message 
-      guests.forEach((guest)=>{
-        console.log(`hello ${guest} will you attend my dinner party?`)
-      })
-
-      
-    console.log("turns out  i only have  2 space for 2 guest only sorry about that")
-
-    while ( guests.length > 2){
-        let removedGuests = guests.pop()
-
-        console.log(`sorry ${removedGuests} you have been removed from the  guest list`)
-    }
-
-
-guests.splice(0, guests.length) 
-console.log(guests)
+ // reverse alphabetical
+ const reverseAlphabetical = [...places].sort().reverse()
+ console.log("reverseAphabetical",reverseAlphabetical)
+ 
+  
+ 
+ places.reverse();
+ console.log("Reversed order:", places);
+ 
+ places.reverse();
+ console.log("Original order:", places);
+ 
+ places.sort();
+ console.log("Alphabetical order:", places);
+ 
+ places.reverse();
+ console.log("Reverse alphabetical order:", places);
+ 
+ console.log("checking",places)
+ 
+  
    
    })()
+
+
+
+
+   
  
  
