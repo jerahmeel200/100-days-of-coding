@@ -1,4 +1,4 @@
-(function () {
+ 
     var guests = ["jerahmeel", "james", "kelly"];
 
     console.log("good news! i have more space for two 3 more guests")
@@ -30,4 +30,4 @@
 guests.splice(0, guests.length) 
 console.log(guests)
 
-})();
+ 
