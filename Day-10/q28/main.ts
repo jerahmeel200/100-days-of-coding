@@ -1,6 +1,6 @@
  (()=>{
 
-  var age = 18
+  var age :number  = 18
 
   if (age < 2) {
     console.log("The person is a baby.");
