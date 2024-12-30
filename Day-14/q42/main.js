@@ -6,7 +6,7 @@ const show_magicians =(magicians)=>{
     })
 }
 
- show_magicians(magicians)
+ 
 
  const make_great =(magicians)=>{
    for(let i = 0; i < magicians.length; i++){
