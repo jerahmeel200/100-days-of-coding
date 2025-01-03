@@ -4,3 +4,4 @@
 
  **Q56** - Keep Only Strings: Given a mix of different types of items, make a new list that has only the words.
 
+**Q57** - Find the Average Grade: Given a list of grades, calculate the average grade.
