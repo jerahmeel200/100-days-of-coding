@@ -4,6 +4,8 @@
 
 **Q68** - Multiplying Decimals: Create a function that accepts two decimal numbers and returns their product. Round the result to two decimal places.
 
+**Q69** - Dividing and Finding the Remainder: Write a function that divides two numbers and returns both the quotient and the remainder. Use an object to return both values.
+
  
  
  
