@@ -1,26 +1,20 @@
  
 (()=>{
  
-// square a number 
+  const car =
+  {
+       make:"Honda",
+       model:"civic RTX",
+       year: "2013"
+  }
 
 
-// Function Expression
-// it cannot be called before it's defined
-// console.log(expression(25)); // This would throw an error if placed here.
-const expression = function (number: number): number{
-  return number * number 
-}
 
 
-console.log(expression(25))
+console.log(car.model)
+console.log(car.make)
+console.log(car.model)
 
-// Function Declaration
-// It can be called even before its declaration (hoisted)
-function declaration(number: number ): number {
-return  number * number
-}
-
-console.log(declaration(30))
 
   
    
