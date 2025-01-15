@@ -3,6 +3,8 @@
 **Q91** - Create an array of your three favorite fruits and add a new fruit to the end of the array.
 
 **Q92** - Write a function to remove the last element from an array and return the removed element.
+
+**Q93** - Find the index of `Banana` in an array of fruits and replace it with `Mango`.
  
  
 
