@@ -2,6 +2,8 @@
 
 **Q97** - Write a function that returns the current date in the format `DD-MM-YYYY`.
 
+**Q98** - Create a JavaScript snippet that calculates and logs how many days are left until New Year.
+
 
 
 
