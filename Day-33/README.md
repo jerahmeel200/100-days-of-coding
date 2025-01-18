@@ -4,6 +4,9 @@
 
 **Q98** - Create a JavaScript snippet that calculates and logs how many days are left until New Year.
 
+**Q99** - Generate a date object representing your next birthday and log it to the console.
+
+
 
 
 
