@@ -4,6 +4,8 @@
 
 **Q104** - Create a function that generates a random hexadecimal color code.
 
+**Q105** - Simulate a dice roll using JavaScript and return a random integer between 1 and 6.
+
  
 
  
