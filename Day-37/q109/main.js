@@ -1,7 +1,7 @@
+ const time = new Date()
  
- const compareString = (str1, str2)=>{
- return  str1.toLowerCase() === str2.toLowerCase()
- }
-
- console.log(compareString("HELLO", "hello"))
-
+if(time.getHours()< 12){
+    console.log("Good Morning")
+}else{
+    console.log("not morning")
+}
