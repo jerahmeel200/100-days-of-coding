@@ -1,5 +1,9 @@
 # Day-40 of `100-Days-Of-Code` Challenge
 
+**Q118** - Write a loop that logs numbers from 1 to 10 to the console.
+
+
+
  
  
  
