@@ -1,5 +1,4 @@
-(() => {
-  const person ={
+const person ={
     name: 'Raj',
     age: 25,
    getName: function(){
@@ -10,4 +9,3 @@
 
 
  console.log(person.getName())
-})();
