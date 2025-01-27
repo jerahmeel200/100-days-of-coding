@@ -1,11 +1,11 @@
-const person ={
-    name: 'Raj',
-    age: 25,
-   getName: function(){
-     return    this.name
-   }
+const rectangle = {
+  width:20,
+  height:10,
+  getArea: function(){
+    return this.width * this.height
+  }
 }
 
 
 
- console.log(person.getName())
+ console.log(rectangle.getArea())
