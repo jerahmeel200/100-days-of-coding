@@ -1,5 +1,5 @@
 (() => {
-  const multipleProducts = (...numbers)=>numbers.reduce((total, number) => total * number, 1)
+  const multipleProducts = (...numbers: number[])=>numbers.reduce((total, number) => total * number, 1)
 
 
 
