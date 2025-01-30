@@ -1,7 +1,8 @@
 # Day-45 of `100-Days-Of-Code` Challenge
 
 **Q133** - Write a JavaScript object and convert it into a JSON string.
- 
+
+**Q134** - Take a JSON string and parse it into a JavaScript object.
 
 
 
