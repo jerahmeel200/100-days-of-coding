@@ -1,6 +1,8 @@
 # Day-46 of `100-Days-Of-Code` Challenge
 
-**Q136** - Write a JavaScript object and convert it into a JSON string.
+**Q136** - Use console.log() to debug and track the value of a variable inside a loop.
+
+**Q137** - Write a JavaScript object and convert it into a JSON string.
 
  
 
