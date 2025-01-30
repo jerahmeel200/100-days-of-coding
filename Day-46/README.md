@@ -4,7 +4,7 @@
 
 **Q137** - Write a JavaScript object and convert it into a JSON string.
 
-**Q138** - Implement a try-catch block to handle potential errors in a block of code.
+**Q138** - Describe how to use breakpoints in browser developer tools to debug JavaScript code.
 
  
 
