@@ -1,6 +1,8 @@
 # Day-48 of `100-Days-Of-Code` Challenge
 
 **Q142** - Create a Promise that resolves with `Hello, World!` after 2 seconds.
+
+**Q143** - Show how to use the .then() and .catch() methods to handle Promise resolution and rejection
  
 
  
