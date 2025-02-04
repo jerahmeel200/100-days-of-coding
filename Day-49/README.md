@@ -4,6 +4,8 @@
 
 **Q146** - Show an example of a callback function used to filter an array of numbers.
 
+**Q147** - Explain how to handle errors in a callback pattern.
+
  
  
 
