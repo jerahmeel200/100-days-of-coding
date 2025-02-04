@@ -1,4 +1,4 @@
-# Day-49 of `100-Days-Of-Code` Challenge
+# Day-50 of `100-Days-Of-Code` Challenge
 
 **Q148** - Create a function that accepts a callback and invokes it with some arguments.
 
