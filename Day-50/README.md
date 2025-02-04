@@ -1,8 +1,10 @@
 # Day-49 of `100-Days-Of-Code` Challenge
 
-**Q145** - Create a function that accepts a callback and invokes it with some arguments.
+**Q148** - Create a function that accepts a callback and invokes it with some arguments.
 
-**Q146** - Show an example of a callback function used to filter an array of numbers.
+**Q149** - Show an example of a callback function used to filter an array of numbers.
+
+**Q150** - Describe how asynchronous callbacks differ from synchronous code execution.
 
  
  
