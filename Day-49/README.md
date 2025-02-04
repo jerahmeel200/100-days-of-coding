@@ -2,6 +2,8 @@
 
 **Q145** - Create a function that accepts a callback and invokes it with some arguments.
 
+**Q146** - Show an example of a callback function used to filter an array of numbers.
+
  
  
 
