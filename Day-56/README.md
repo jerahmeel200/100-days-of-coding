@@ -1,9 +1,9 @@
-# Day-55 of `100-Days-Of-Code` Challenge
+# Day-56 of `100-Days-Of-Code` Challenge
 
-**Day-55 Task:**
+**Day-56 Task:**
 
 Read the following Articles and Code along with it:
 
-[Data Types in JavaScript](https://javascript.info/types)
+[Type Conversions in JavaScript](https://javascript.info/type-conversions)
 
-[Interaction: alert, prompt, confirm in JavaScript](https://javascript.info/alert-prompt-confirm)
+[Operators in JavaScript](https://javascript.info/operators)
