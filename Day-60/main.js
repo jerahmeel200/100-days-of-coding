@@ -1,168 +1,145 @@
-// SWITCH STATEMENT
+//  Functions
 
-// Write the code using if..else which would correspond to the following switch:
 
-switch (browser) {
-  case 'Edge':
-    alert( "You've got the Edge!" );
-    break;
 
-  case 'Chrome':
-  case 'Firefox':
-  case 'Safari':
-  case 'Opera':
-    alert( 'Okay we support these browsers too' );
-    break;
 
-  default:
-    alert( 'We hope that this page looks ok!' );
+// 1. Function Declaration example:
+// function name(parameter1, parameter2, ... parameterN) {
+ // body
+// }
+function message(){
+  console.log("Hello world!")
 }
 
-// SOLUTION
-
-if(browser == 'Edge') {
-  alert("You've got the Edge!");
-} else if (browser == 'Chrome'
- || browser == 'Firefox'
- || browser == 'Safari'
- || browser == 'Opera') {
-  alert( 'Okay we support these browsers too' );
-} else {
-  alert( 'We hope that this page looks ok!' );
+function showMessage(){
+  alert("Hello world!")
+  alert("Hello world!")
 }
 
+showMessage()
+showMessage()
 
-// Rewrite the code below using a single switch statement:
 
-let a = +prompt('a?', '');
+// Local variables
+// A variable declared inside a function is only visible inside that function.
 
-if (a == 0) {
-  alert( 0 );
-}
-if (a == 1) {
-  alert( 1 );
-}
+// For example:
 
-if (a == 2 || a == 3) {alert( '2,3' );
-}
 
-// SOLUTION
+function showMessage() {
+  let message = "Hello, I'm JavaScript!"; // local variable
 
-// let a = +prompt('a?', '');
-
-switch (a) {
-  case 0:
-    alert( 0 );
-    break;
-
-  case 1:
-    alert( 1 );
-    break;
-
-  case 2:
-  case 3:
-    alert( '2,3' );
-    break;
+  alert( message );
 }
 
-//  Loops: while and for
+showMessage(); // Hello, I'm JavaScript!
 
-// What is the last value alerted by this code? Why?
+alert( message ); // <-- Error! The variable is local to the function
 
 
-let i = 3;
+// Outer variables
+// A function can access an outer variable as well, for example:
+let userName = 'John';
+ function showMessage(){
+  let message = "Hello , " + userName;
+  alert(message);
+ }
 
-while (i) {
-  alert( i-- );
+showMessage(); // Hello, John
+
+// Parameters
+// We can pass arbitrary data to functions using parameters.
+
+// In the example below, the function has two parameters: from and text.
+function showMessage(from, text){
+  alert(from + ":" + text)
 }
-// the Output will be 1 because the condition is true and the loop will run until
-//  the condition is false. in this case when the loop reaches zero the loop will stop or break.
+showMessage("Ann", "Hello");
+showMessage("Ann", "What's up?");
+
+// Default values
+// If a function is called, but an argument is not provided,
+//  then the corresponding value becomes undefined.
+// to fix this we can use default values.
 
 
-
-
-
-// For every loop iteration, write down which value it outputs and then compare it with the solution.
-// The task demonstrates how postfix/prefix forms can lead to different results when used in comparisons.
-
-// From 1 to 4
-
-// let i = 0;
-while (++i < 5) alert( i );
-// The first value is i = 1, because ++i first increments i and then returns the new value. So the first comparison is 1 < 5 and the alert shows 1.
-
-// Then follow 2, 3, 4… – the values show up one after another. The comparison always uses the incremented value, because ++ is before the variable.
-
-// Finally, i = 4 is incremented to 5, the comparison while(5 < 5) fails, and the loop stops. So 5 is not shown.
-
-// From 1 to 5
-
-// let i = 0;
-while (i++ < 5) alert( i );
-// The first value is again i = 1. The postfix form of i++ increments i and then returns the old value, so the comparison i++ < 5 will use i = 0 (contrary to ++i < 5).
-
-// But the alert call is separate. It’s another statement which executes after the increment and the comparison. So it gets the current i = 1.
-
-// Then follow 2, 3, 4…
-
-// Let’s stop on i = 4. The prefix form ++i would increment it and use 5 in the comparison. But here we have the postfix form i++. So it increments i to 5, but returns the old value. Hence the comparison is actually while(4 < 5) – true, and the control goes on to alert.
-
-// The value i = 5 is the last one, because on the next step while(5 < 5) is false.
-
-
-
-
-// Rewrite the code changing the for loop to while without altering its behavior (the output should stay same).
-
-for (let i = 0; i < 3; i++) {
-  alert( `number ${i}!` );
+function showMessage(from , text="no text given"){
+  alert(from + ":" + text);
 }
 
+showMessage("Ann"); // Ann: no text given
 
-// let i  = 0
-while(i < 3){
-    alert(`number ${i}!`)
-    i++
-}
+// Alternative default parameters
+ 
+function showMessage(text) {
+  // ...
 
-
-// Write a loop which prompts for a number greater than 100. If the visitor enters another number – ask them to input again.
-
-// The loop must ask for a number until either the visitor enters a number greater than 100 or cancels the input/enters an empty line.
-
-// Here we can assume that the visitor only inputs numbers. There’s no need to implement a special handling for a non-numeric input in this task.
-
-let number
-
-let num;
-
-do {
-  num = prompt("Enter a number greater than 100?", 0);
-} while (num <= 100 && num);
-
-
-
-// An integer number greater than 1 is called a prime if it cannot be divided without a remainder by anything except 1 and itself.
-
-// In other words, n > 1 is a prime if it can’t be evenly divided by anything except 1 and n.
-
-// For example, 5 is a prime, because it cannot be divided without a remainder by 2, 3 and 4.
-
-// Write the code which outputs prime numbers in the interval from 2 to n.
-
-// For n = 10 the result will be 2,3,5,7.
-
-// P.S. The code should work for any n, not be hard-tuned for any fixed value
-
-
-let n = 10;
-
-nextPrime:
-for (let i = 2; i <= n; i++) { // for each i...
-
-  for (let j = 2; j < i; j++) { // look for a divisor..
-    if (i % j == 0) continue nextPrime; // not a prime, go next i
+  if (text === undefined) { // if the parameter is missing
+    text = 'empty message';
   }
 
-  alert( i ); // a prime
+  alert(text);
 }
+
+showMessage(); // empty message
+function showMessage(text) {
+  // if text is undefined or otherwise falsy, set it to 'empty'
+  text = text || 'empty';
+  // ...
+}
+//Using the  nullish coalescing operator to check for default parameters ??
+function showCount(count) {
+  // if count is undefined or null, show "unknown"
+  alert(count ?? "unknown");
+}
+
+showCount(0); // 0
+showCount(null); // unknown
+showCount(); // unknown
+
+// Returning a value
+// A function can return a value back into the calling code as the result.
+function sum(a, b){
+  return a + b
+}
+sum(1, 2); // 3
+// Another example of returning a value
+function checkAge(age){
+  if(age  >= 18){
+    return true;
+  }else{
+    return confirm("Do you have permission from your parents?")
+  }
+}
+
+let age = prompt("How old are you?", 18);
+
+if(checkAge(age)){
+  alert("Access granted");
+}else{
+  alert("Access denied");
+}
+
+// Using return value  to cause the function to exit immediately
+// In the code above, if checkAge(age) returns false, then showMovie won’t proceed to the alert.
+function showMovie(age){
+  if(!checkAge(age)){
+    return;
+  }
+  alert("Showing you the movie");
+}
+
+// A function with an empty return or without it returns undefined
+// If a function does not return a value, it is the same as if it returns undefined:
+
+function doNothing() { /* empty */ }
+
+alert( doNothing() === undefined ); // true
+// An empty return is also the same as return undefined:
+
+function doNothing() {
+  return;
+}
+
+alert( doNothing() === undefined ); // true
+
