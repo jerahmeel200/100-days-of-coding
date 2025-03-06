@@ -1,7 +1,12 @@
 //  Functions
-
-
-
+// function deleration
+function sayHi() {
+  // ...
+}
+// function expression
+let sayHi = function() {
+  // ...
+};
 
 // 1. Function Declaration example:
 // function name(parameter1, parameter2, ... parameterN) {
