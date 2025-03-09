@@ -1,7 +1,7 @@
- # Day-78 of `100-Days-Of-Code` Challenge
+# Day-80 of `100-Days-Of-Code` Challenge
 
-**Day-78 Task:**
+**Day-80 Task:**
 
-Read and understand the following Visual Guide about the Web Vitals.
+Read the following Article about the difference between Full Stack Developer or Software Engineer.
 
-[What are Web Vitals?](https://roadmap.sh/guides/what-are-web-vitals)
+[Full Stack Developer or Software Engineer – Which Way to Go?](https://roadmap.sh/full-stack/vs-software-engineer)
