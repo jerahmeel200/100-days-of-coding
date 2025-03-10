@@ -1,7 +1,8 @@
- # Day-78 of `100-Days-Of-Code` Challenge
+# Day-83 of `100-Days-Of-Code` Challenge
 
-**Day-78 Task:**
+**Day-83 Task:**
 
-Read and understand the following Visual Guide about the Web Vitals.
+Today's task is to learn about:
 
-[What are Web Vitals?](https://roadmap.sh/guides/what-are-web-vitals)
+- [Building UI with Components](https://nextjs.org/learn/react-foundations/building-ui-with-components)
+- [Displaying Data with Props](https://nextjs.org/learn/react-foundations/displaying-data-with-props)
