@@ -1,0 +1,55 @@
+# Day-47 of `100-Days-Of-Code` Challenge
+
+**Q139** - List three reserved words in JavaScript and create a valid use case for each.
+
+**Q140** - Explain the error that occurs when trying to use a reserved word as a variable name.List three reserved words in JavaScript and create a valid use case for each.
+
+**Q141** - Discuss the significance of the await reserved word in asynchronous JavaScript.
+
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+ 
+ 
+
+
+ 
